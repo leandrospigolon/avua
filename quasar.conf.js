@@ -104,10 +104,13 @@ module.exports = configure(function (ctx) {
       // * true   - Import everything from Quasar
       //            (not treeshaking Quasar; biggest bundle size; convenient)
       all: 'auto',
-
       components: [
-      'QVideo'
+        'QVideo',
+        'QTabs',
+        'QTab',
+        'QRouteTab'
       ],
+
       directives: [],
 
       // Quasar plugins
@@ -206,7 +209,6 @@ module.exports = configure(function (ctx) {
         // do something with Electron main process Webpack cfg
         // chainWebpack also available besides this extendWebpack
       }
- 
     }
   }
 })

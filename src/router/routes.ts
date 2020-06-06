@@ -4,17 +4,12 @@ const routes: RouteConfig[] = [
   {
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/Index.vue') }]
-  },
-  {
-    path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/cursos.vue') }]
-  },
-  {
-    path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/trabalhos.vue') }]
+    children: [
+      { path: '', component: () => import('pages/Index.vue') },
+      { path: '/cursos', component: () => import('pages/cursos.vue') },
+      { path: '/trabalhos', component: () => import('pages/trabalhos.vue') },
+      { path: '/somos', component: () => import('pages/somos.vue') }
+    ]
   }
 ]
 

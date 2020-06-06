@@ -10,33 +10,27 @@
           aria-label="Menu"
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
-<q-btn color="primary" label="MENU">
+
+        <q-toolbar-title>
+AVUA LIBRAS
+        </q-toolbar-title>
+        <q-btn color="primary" label="Login">
         <q-menu
           transition-show="flip-right"
           transition-hide="flip-left"
         >
           <q-list style="min-width: 100px">
             <q-item clickable>
-            <q-item-section>CURSOS</q-item-section>
+            <q-item-section>Login</q-item-section>
             </q-item>
             <q-item clickable>
-              <q-item-section>NOSSOS TRABALHOS</q-item-section>
-            </q-item>
-            <q-separator />
-            <q-item clickable>
-              <q-item-section>QUEM SOMOS</q-item-section>
+              <q-item-section>Cadastro de Usuario</q-item-section>
             </q-item>
           </q-list>
         </q-menu>
       </q-btn>
-        <q-toolbar-title>
 
-        </q-toolbar-title>
-
-        <div>SPA Version 1.7 .</div>
-        <q-avatar>
-      <img src="~assets/simbolo.png">
-    </q-avatar>
+        <div></div>
 
       </q-toolbar>
 
@@ -93,12 +87,12 @@ export default {
           link: 'https://www.instagram.com/avualibras/'
         },
         {
-          title: 'Canal AVUA Youtube',
+          title: 'Youtube Canal AVUA',
           caption: 'youtube.com',
           icon: 'play_circle_filled',
           link: 'https://www.youtube.com/channel/UCJLKeaVEGmvDj0pWMcGyz8w?app=desktop'
         },
-         {
+        {
           title: 'Facebook AVUA',
           caption: 'facebook.com',
           icon: 'thumb_up',
@@ -109,7 +103,7 @@ export default {
           caption: 'Gmail',
           icon: 'mail',
           link: '#'
-          }
+        }
       ]
     }
   }

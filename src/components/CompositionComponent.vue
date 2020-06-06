@@ -11,7 +11,6 @@
     <p>Clicks on todos: {{ clickCount }}</p>
   </div>
 </template>
-
 <script lang="ts">
 import { defineComponent, PropType, computed, ref } from '@vue/composition-api'
 import { Todo, Meta } from './models'
@@ -53,5 +52,6 @@ export default defineComponent({
   setup ({ todos }) {
     return { ...useClickCount(), ...useDisplayTodo(todos) }
   }
+
 })
 </script>

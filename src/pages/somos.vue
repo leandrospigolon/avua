@@ -13,7 +13,7 @@
       </div>
  </div>
  </div>
-  <div class="q-pa-md">   
+  <div class="q-pa-md">
     <div class="row">
       <div class="col">
         <div class="q-pa-md row items-start q-gutter-md">
@@ -41,7 +41,7 @@
 
               <q-card-section>
                 <div class="text-h6">Sou a Stefanie</div>
-                <div class="text-subtitle2">Interpreti</div>
+                <div class="text-subtitle2">Interprete</div>
               </q-card-section>
 
               <q-card-section class="q-pt-none">
